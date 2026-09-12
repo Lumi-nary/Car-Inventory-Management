@@ -62,12 +62,12 @@ pom.xml                                        original Maven build, recovered f
 ## Team — May 2023
 | Name | Role |
 | --- | --- |
-| Daniel Carlo Caparida | CEO / Developer |
-| Fahd Moreno | Designer |
-| Marvin Dayrit | Designer |
-| Joshua Miguel Franco | Admin |
-| Jeremie Joie Correa | Admin |
-| Genalyn D. Villafuerte | Project Manager |
+| Daniel | Project Manager / Developer |
+| Fahd | Designer |
+| Marvin | Designer |
+| Joshua | Admin |
+| Jeremie | Admin |
+| Genalyn | Advisor |
 
 City College of San Jose del Monte — Computer Programming 2, BS EMC 1A. Created May 24, 2023.
 
