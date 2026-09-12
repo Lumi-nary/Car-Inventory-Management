@@ -2,7 +2,7 @@
 
 > **Recovered project.** The original working copy was lost in a disk format. The Java sources here were **decompiled** from the shipped 1.0 build (`Car Inventory 1.0.exe`, on the [Releases](../../releases) page) with CFR 0.152; the original `pom.xml` and the complete `pictures/` UI asset set were recovered from inside the same executable. Decompiled code is functionally faithful but loses comments and formatting.
 
-A JavaFX desktop **Car Inventory Management** application — school capstone project, May 2023.
+A JavaFX desktop **Car Inventory Management** application — school project, May 2023.
 
 ![Login screen](docs/login-screen.png)
 
