@@ -59,7 +59,7 @@ pom.xml                                        original Maven build, recovered f
 | `Car Inventory 1.0.exe` | The original bundled Windows release, exactly as shipped in 2023 |
 | `car_inventory.sql` | phpMyAdmin dump of the development database: schema, 10 sample cars (with their photo blobs), and the five accounts |
 
-## Team — May 2023 capstone
+## Team — May 2023
 | Name | Role |
 | --- | --- |
 | Daniel Carlo Caparida | CEO / Developer |
