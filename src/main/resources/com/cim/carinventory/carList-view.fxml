@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#onUnFocusedDetailSelection" prefHeight="720.0" prefWidth="1280.0" stylesheets="@cim-style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cim.carinventory.carListController">
+   <children>
+      <FontIcon id="ExitBTN" fill="#949494" iconLiteral="fth-x" iconSize="22" layoutX="1255.0" layoutY="23.0" onMousePressed="#onExitBTNClick">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></FontIcon>
+      <FontIcon id="minimizeBTN" fx:id="minimizeBTN" fill="#949494" iconLiteral="fth-minus" iconSize="22" layoutX="1228.0" layoutY="23.0" onMousePressed="#onMinimizeBTNClick" text="">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></FontIcon>
+      <ImageView fitHeight="82.0" fitWidth="109.0" layoutX="14.0" layoutY="14.0" preserveRatio="true">
+         <image>
+            <Image url="@pictures/cim_logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="43.0" layoutY="102.0" text="CAR LIST">
+         <font>
+            <Font name="ADAM.CGPRO" size="84.0" />
+         </font>
+      </Label>
+      <Line endX="1098.0" layoutX="184.0" layoutY="196.0" startX="-186.0" strokeWidth="3.0" />
+      <Button id="defBTN" fx:id="homeBTN" layoutX="1159.0" layoutY="35.0" mnemonicParsing="false" onAction="#onHomeBTNClick" prefHeight="39.0" prefWidth="80.0" text="HOME" textFill="#cc0033">
+         <font>
+            <Font name="ADAM.CGPRO" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <VBox fx:id="vBoxPane" alignment="TOP_CENTER" layoutX="34.0" layoutY="223.0" prefHeight="212.0" prefWidth="242.0" spacing="10.0">
+         <children>
+            <Button id="defBTNPrio" fx:id="addBTN" mnemonicParsing="false" onAction="#onAddCarBTNClick" prefHeight="39.0" prefWidth="240.0" text="ADD CAR" textFill="WHITE">
+               <font>
+                  <Font name="ADAM.CGPRO" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button id="defBTN" fx:id="editdelBTN" layoutX="20.0" layoutY="15.0" mnemonicParsing="false" onAction="#onEditDeleteCarBTNClick" prefHeight="39.0" prefWidth="240.0" text="EDIT/DELETE CAR" textFill="#cc0033">
+               <font>
+                  <Font name="ADAM.CGPRO" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button id="defBTN" fx:id="detailsBTN" layoutX="20.0" layoutY="64.0" mnemonicParsing="false" onAction="#onDetailCarBTNClick" prefHeight="39.0" prefWidth="240.0" text="CAR DETAILS" textFill="#cc0033">
+               <font>
+                  <Font name="ADAM.CGPRO" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </padding>
+      </VBox>
+      <ImageView fitHeight="52.0" fitWidth="231.0" layoutX="409.0" layoutY="135.0" preserveRatio="true">
+         <image>
+            <Image url="@pictures/carlist_design.png" />
+         </image>
+      </ImageView>
+      <TableView id="carList" fx:id="carlistTable" layoutX="295.0" layoutY="231.0" maxWidth="980.0" minWidth="970.0" prefHeight="410.0" prefWidth="970.0">
+        <columns>
+            <TableColumn fx:id="vinCol" prefWidth="175.0" text="VIN" />
+          <TableColumn fx:id="brandCol" prefWidth="160.0" text="BRAND" />
+          <TableColumn fx:id="modelCol" prefWidth="160.0" text="MODEL" />
+            <TableColumn fx:id="yearCol" prefWidth="160.0" text="YEAR" />
+            <TableColumn fx:id="transmCol" prefWidth="160.0" text="TRANSMISSION" />
+            <TableColumn fx:id="cartypeCol" prefWidth="150.0" text="CAR TYPE" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="39.0" fitWidth="131.0" layoutX="1131.0" layoutY="664.0" preserveRatio="true">
+         <image>
+            <Image url="@pictures/aver_logo.png" />
+         </image>
+      </ImageView>
+      <TextField id="searchBar" fx:id="searchField" layoutX="1017.0" layoutY="161.0" onKeyPressed="#onSearchFieldKeyPressed" prefHeight="28.0" prefWidth="222.0" promptText="Search">
+         <font>
+            <Font name="Industry-Demi" size="13.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <FontIcon fill="#949494" iconLiteral="fth-search" iconSize="18" layoutX="1190.0" layoutY="182.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:id="scrollPane" focusTraversable="false" hbarPolicy="NEVER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="1280.0" stylesheets="@cim-style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cim.carinventory.aboutController">
+   <content>
+      <AnchorPane prefHeight="615.0" prefWidth="1282.0">
+         <children>
+            <Label alignment="CENTER" layoutX="370.0" layoutY="14.0" prefHeight="89.0" prefWidth="541.0" text="About" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Line endX="917.0" layoutX="363.0" layoutY="103.0" startX="-363.0" stroke="#570343" strokeWidth="3.0" />
+            <ImageView fitHeight="125.0" fitWidth="320.0" layoutX="482.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/aver_logo.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="379.0" layoutY="303.0" prefHeight="55.0" prefWidth="525.0" style="-fx-background-radius: 20; -fx-border-color: #e7013e; -fx-border-width: 2; -fx-border-radius: 50;" text="Car Inventory Management" textFill="#e7013e">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="182.0" layoutY="594.0" prefHeight="364.0" prefWidth="928.0" style="-fx-background-color: #570343; -fx-background-radius: 50;" />
+            <ImageView fitHeight="338.0" fitWidth="946.0" layoutX="167.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/Daco_5771533.png" />
+               </image>
+            </ImageView>
+            <Label id="CIMtext" alignment="CENTER" layoutX="368.0" layoutY="672.0" prefHeight="77.0" prefWidth="557.0" text="CIM is Car Inventory Management a software" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label id="CIMtext" alignment="CENTER" layoutX="368.0" layoutY="701.0" prefHeight="77.0" prefWidth="557.0" text="program that helps efficiently manage the" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label id="CIMtext" alignment="CENTER" layoutX="368.0" layoutY="732.0" prefHeight="77.0" prefWidth="557.0" text="inventory of vehicles. This program provides a" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label id="CIMtext" alignment="CENTER" layoutX="368.0" layoutY="763.0" prefHeight="77.0" prefWidth="557.0" text="centralized database that stores all of the relevant" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label id="CIMtext" alignment="CENTER" layoutX="368.0" layoutY="794.0" prefHeight="77.0" prefWidth="557.0" text="information about each vehicle in the inventory," textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label id="CIMtext" alignment="CENTER" layoutX="368.0" layoutY="826.0" prefHeight="77.0" prefWidth="557.0" text="including make, model, year, VIN number, and" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label id="CIMtext" alignment="CENTER" layoutX="368.0" layoutY="854.0" prefHeight="77.0" prefWidth="557.0" text="other important details." textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="479.0" layoutY="1073.0" prefHeight="55.0" prefWidth="335.0" style="-fx-background-radius: 20; -fx-border-color: #e7013e; -fx-border-width: 2; -fx-border-radius: 50;" text="Meet our team" textFill="#e7013e">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="147.0" fitWidth="149.0" layoutX="209.0" layoutY="1263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/danielpfp.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="147.0" fitWidth="149.0" layoutX="573.0" layoutY="1263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/fahdpfp.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="153.0" fitWidth="137.0" layoutX="930.0" layoutY="1262.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/marvinpfp.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="198.0" layoutY="1432.0" prefHeight="36.0" prefWidth="169.0" style="-fx-background-radius: 20; -fx-border-color: #570343; -fx-border-width: 1; -fx-border-radius: 50;" text="Daniel Carlo Caparida" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="198.0" layoutY="1227.0" prefHeight="36.0" prefWidth="169.0" text="CEO" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="562.0" layoutY="1432.0" prefHeight="36.0" prefWidth="169.0" style="-fx-background-radius: 20; -fx-border-color: #570343; -fx-border-width: 1; -fx-border-radius: 50;" text="Fahd Moreno" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="914.0" layoutY="1432.0" prefHeight="36.0" prefWidth="169.0" style="-fx-background-radius: 20; -fx-border-color: #570343; -fx-border-width: 1; -fx-border-radius: 50;" text="Marvin Dayrit" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="562.0" layoutY="1227.0" prefHeight="36.0" prefWidth="169.0" text="Designer" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="914.0" layoutY="1227.0" prefHeight="36.0" prefWidth="169.0" text="Designer" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="147.0" fitWidth="149.0" layoutX="409.0" layoutY="1555.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/joshuapfp.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="395.0" layoutY="1519.0" prefHeight="36.0" prefWidth="169.0" text="Admin" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="398.0" layoutY="1726.0" prefHeight="36.0" prefWidth="169.0" style="-fx-background-radius: 20; -fx-border-color: #570343; -fx-border-width: 1; -fx-border-radius: 50;" text="Joshua Miguel Franco" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="156.0" fitWidth="140.0" layoutX="771.0" layoutY="1551.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/jeremiepfp.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="756.0" layoutY="1726.0" prefHeight="36.0" prefWidth="169.0" style="-fx-background-radius: 20; -fx-border-color: #570343; -fx-border-width: 1; -fx-border-radius: 50;" text="Jeremie Joie Correa" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="756.0" layoutY="1519.0" prefHeight="36.0" prefWidth="169.0" text="Admin" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="573.0" layoutY="1835.0" prefHeight="36.0" prefWidth="169.0" text="Proj. Manager" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="147.0" fitWidth="149.0" layoutX="584.0" layoutY="1877.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/genalynpfp.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="573.0" layoutY="2045.0" prefHeight="36.0" prefWidth="169.0" style="-fx-background-radius: 20; -fx-border-color: #570343; -fx-border-width: 1; -fx-border-radius: 50;" text="Genalyn D. Villafuerte" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="490.0" layoutY="2174.0" prefHeight="55.0" prefWidth="335.0" style="-fx-background-radius: 20; -fx-border-color: #570343; -fx-border-width: 2; -fx-border-radius: 50;" text="Created from" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="271.0" layoutY="2329.0" prefHeight="170.0" prefWidth="171.0" style="-fx-background-color: #570343; -fx-background-radius: 20;" />
+            <Label layoutX="584.0" layoutY="2329.0" prefHeight="170.0" prefWidth="171.0" style="-fx-background-color: #570343; -fx-background-radius: 20;" />
+            <Label layoutX="872.0" layoutY="2329.0" prefHeight="170.0" prefWidth="171.0" style="-fx-background-color: #570343; -fx-background-radius: 20;" />
+            <ImageView fitHeight="149.0" fitWidth="145.0" layoutX="284.0" layoutY="2342.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/IntelliJ_IDEA_Edu_Icon.svg.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="149.0" fitWidth="145.0" layoutX="597.0" layoutY="2342.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/SceneBuilderLogo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="146.0" fitWidth="149.0" layoutX="883.0" layoutY="2342.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/Adobe_Photoshop_CC_icon.svg.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="272.0" layoutY="2515.0" prefHeight="36.0" prefWidth="169.0" text="IntelliJ" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="585.0" layoutY="2515.0" prefHeight="36.0" prefWidth="169.0" text="SceneBuilder" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="873.0" layoutY="2515.0" prefHeight="36.0" prefWidth="169.0" text="Photoshop" textFill="#570343">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="399.0" layoutY="2871.0" prefHeight="568.0" prefWidth="549.0" style="-fx-background-color: #570343; -fx-background-radius: 50;" />
+            <ImageView fitHeight="369.0" fitWidth="651.0" layoutX="359.0" layoutY="2666.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/car_menuBG.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="433.0" layoutY="3101.0" prefHeight="92.0" prefWidth="269.0" text="Project" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="69.0" />
+               </font>
+            </Label>
+            <Label layoutX="433.0" layoutY="3168.0" prefHeight="101.0" prefWidth="356.0" text="Proposal" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="69.0" />
+               </font>
+            </Label>
+            <Label layoutX="433.0" layoutY="3020.0" prefHeight="44.0" prefWidth="389.0" text="CITY COLLEGE OF SAN JOSE DEL MONTE" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="433.0" layoutY="3042.0" prefHeight="44.0" prefWidth="389.0" text="Computer PROGRAMMING 2" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="437.0" layoutY="3273.0" prefHeight="44.0" prefWidth="389.0" text="BS EMC 1A" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="437.0" layoutY="3330.0" prefHeight="44.0" prefWidth="389.0" text="DATE OF CREATION:" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="437.0" layoutY="3352.0" prefHeight="44.0" prefWidth="389.0" text="May 24, 2023" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Circle fill="#e7013e" layoutX="822.0" layoutY="1073.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#e7013e" layoutX="-37.0" layoutY="1101.0" radius="229.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#e7013e" layoutX="545.0" layoutY="1198.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#e7013e" layoutX="1184.0" layoutY="1128.0" radius="101.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#e7013e" layoutX="436.0" layoutY="964.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#570343" layoutX="1142.0" layoutY="1967.0" radius="179.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#570343" layoutX="479.0" layoutY="2242.0" radius="40.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#570343" layoutX="241.0" layoutY="2063.0" radius="95.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#570343" layoutX="112.0" layoutY="1666.0" radius="129.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#570343" layoutX="850.0" layoutY="2335.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#570343" layoutX="742.0" layoutY="1795.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Button id="defBTNPrio" fx:id="closeBTN" layoutX="1154.0" layoutY="14.0" mnemonicParsing="false" onAction="#onCloseBTNClick" prefHeight="31.0" prefWidth="93.0" text="Close" textFill="WHITE">
+               <font>
+                  <Font name="ADAM.CGPRO" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
