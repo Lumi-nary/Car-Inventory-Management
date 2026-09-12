@@ -7,7 +7,8 @@
     <groupId>com.cim</groupId>
     <artifactId>CarInventory</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>CarInventory</name>
+    <name>Car Inventory Management</name>
+    <description>JavaFX + MySQL car inventory management desktop app (2023 capstone project)</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
