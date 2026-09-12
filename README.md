@@ -4,6 +4,10 @@
 
 A JavaFX desktop **Car Inventory Management** application — school capstone project, May 2023.
 
+![Login screen](docs/login-screen.png)
+
+<sub>Login screen — rendered from the app's own FXML layout and shipped image assets. The original display fonts (Industry-Black, ADAM.CG PRO) were installed on the 2023 dev machine and were not part of the recovery, so they are approximated here.</sub>
+
 ## Features
 - Login screen with user management (Admin / Manager roles)
 - Add / edit / view / list cars — VIN, brand, model, transmission, type, date created, photo
@@ -51,6 +55,7 @@ src/main/java/com/cim/carinventory/            14 classes (decompiled)
 src/main/resources/com/cim/carinventory/       10 FXML views + cim-style.css
 src/main/resources/com/cim/carinventory/pictures/   18 UI assets (logos, backgrounds, team photos)
 pom.xml                                        original Maven build, recovered from the release
+docs/login-screen.png                          login screen preview
 ```
 
 ## Downloads
@@ -70,6 +75,9 @@ pom.xml                                        original Maven build, recovered f
 | Genalyn | Advisor |
 
 City College of San Jose del Monte — Computer Programming 2, BS EMC 1A. Created May 24, 2023.
+
+## Known modifications
+- The login title label is centred with an explicit `prefWidth="475.0"` + `alignment="CENTER"` on its `AnchorPane` row, so it stays centred under any font.
 
 ## Known decompilation artifacts
 - Inner classes appear as `SomeClass$1.java`.
